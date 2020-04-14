@@ -159,7 +159,7 @@
 
         <java.version>1.8</java.version>  <!-- Don't specify the version-->
 
-        <scala.version>2.11.0</scala.version>
+        <scala.version>2.13.1</scala.version>
         <scala.binary.version>2.11</scala.binary.version>
 
         <version.spring>4.3.9.RELEASE</version.spring>
