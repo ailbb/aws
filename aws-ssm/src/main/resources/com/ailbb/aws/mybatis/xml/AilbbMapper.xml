@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="AilbbMapper">
+	<!-- Mybatis方式2去查询数据。（XML配置方式） -->
+	<select id="getAilbbByXmlMapper" parameterType="java.util.List" resultType="Ailbb">
+		select * from ailbb
+		<include refid="ailbbWheres"/>
+	</select>
+
+	<sql id="ailbbWheres">
+		<trim prefix="where" prefixOverrides="and">
+			and user in
+			<foreach collection="list" item="item" index="index" open="(" separator="," close=")">
+				#{item}
+			</foreach>
+		</trim>
+	</sql>
+</mapper>
