@@ -162,7 +162,7 @@
         <scala.version>2.11.0</scala.version>
         <scala.binary.version>2.11</scala.binary.version>
 
-        <version.spring>4.3.9.RELEASE</version.spring>
+        <version.spring>5.3.18</version.spring>
 
         <version.aspectj>1.8.10</version.aspectj>
 
