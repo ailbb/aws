@@ -179,7 +179,7 @@
         <version.commons>3.6</version.commons>
 
         <version.c3p0>0.9.5.2</version.c3p0>
-        <version.jdbc.mysql>5.1.42</version.jdbc.mysql>
+        <version.jdbc.mysql>8.0.28</version.jdbc.mysql>
         <version.jdbc.mysql.cj>8.0.15</version.jdbc.mysql.cj>
         <version.jdbc.sqlite>3.19.3</version.jdbc.sqlite>
 
